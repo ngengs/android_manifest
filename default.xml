@@ -359,9 +359,9 @@
 
  <!-- DU REPOS -->
  <!-- general -->
- <project path="manifest" name="android_manifest" remote="du" revision="m-caf" />
+ <project path="manifest" name="ngengs/android_manifest" remote="github" revision="m-caf" />
  <project path="bionic" name="android_bionic" remote="du" revision="m-caf" />
- <project path="build" name="android_build" remote="du" revision="m-caf" >
+ <project path="build" name="ngengs/android_build" remote="github" revision="m-caf" >
  <copyfile src="core/root.mk" dest="Makefile" />
  </project>
  <project path="development" name="android_development" remote="du" revision="m" />
@@ -389,8 +389,8 @@
  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" revision="m-caf" remote="du" />
 
  <!--frameworks-->
- <project path="frameworks/av" name="android_frameworks_av" remote="du" revision="m-caf" />
- <project path="frameworks/base" name="android_frameworks_base" remote="du" revision="m" />
+ <project path="frameworks/av" name="ngengs/android_frameworks_av" remote="github" revision="m-caf" />
+ <project path="frameworks/base" name="ngengs/android_frameworks_base" remote="github" revision="m" />
  <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m-caf" />
  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="m" />
  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="m" />
@@ -492,7 +492,7 @@
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="android-prebuilts-gcc-linux-x86-arm-arm-eabi-4.9" remote="du" revision="m" />
  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="du" revision="m-caf" />
  <!-- vendor -->
- <project path="vendor/du" name="android_vendor_du" remote="du" revision="m" />
+ <project path="vendor/du" name="ngengs/android_vendor_du" remote="github" revision="m" />
  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="du" revision="m-caf" />
  <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="du" revision="m-caf" />
  <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="du" revision="m-caf" />
