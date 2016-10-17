@@ -391,13 +391,13 @@
  <!--frameworks-->
  <project path="frameworks/av" name="ngengs/android_frameworks_av" remote="github" revision="m-caf" />
  <project path="frameworks/base" name="ngengs/android_frameworks_base" remote="github" revision="m" />
- <project path="frameworks/native" name="android_frameworks_native" remote="du" revision="m-caf" />
+ <project path="frameworks/native" name="ngengs/android_frameworks_native" remote="github" revision="m-caf" />
  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="du" revision="m" />
  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="du" revision="m" />
- <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="m" />
+ <project path="frameworks/opt/telephony" name="ngengs/android_frameworks_opt_telephony" remote="github" revision="m" />
  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="du" revision="m" />
  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="du" revision="m" />
- <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="du" revision="m" />
+ <project path="frameworks/opt/net/wifi" name="ngengs/android_frameworks_opt_net_wifi" remote="github" revision="m" />
  <project path="frameworks/webview" name="android_frameworks_webview" remote="du" revision="m" />
 
  <!--hardware-->
@@ -485,7 +485,7 @@
  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="du" revision="m" />
  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="du" revision="m" />
  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="du" revision="m" />
- <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="du" revision="m" />
+ <project path="packages/services/Telecomm" name="ngengs/android_packages_services_Telecomm" remote="github" revision="m" />
  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="du" revision="m" />
 
  <!-- toolchain -->
